@@ -1,0 +1,205 @@
+\relax 
+\citation{hussein2017imitation,zheng2022imitation}
+\citation{wan2024lotus,le2022survey,codevilla2018end,silver2016mastering,9904958}
+\citation{10078377}
+\citation{ho2016generative}
+\citation{arjovsky2017towards}
+\citation{yuan2019adversarial}
+\citation{11232478,finn2016guided,10937085}
+\citation{ho2016generative}
+\citation{fu2017learning}
+\citation{ding2019goal}
+\citation{torabi2018generative}
+\citation{wang2024diffail}
+\citation{shi2024ranking}
+\citation{wang2024diffail,chi2025diffusion}
+\citation{kostrikov2019imitation}
+\citation{kim2021demodice}
+\citation{garg2021iq}
+\citation{reddy2019sqil}
+\citation{chi2025diffusion,pearce2023imitating,11168119,11165204}
+\citation{wu2019imitation}
+\citation{wu2019imitation}
+\citation{wang2021learning}
+\citation{song2022learning}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\citation{ho2016generative}
+\citation{fu2017learning}
+\citation{ding2019goal}
+\citation{wu2019imitation}
+\citation{wu2019imitation}
+\citation{wang2021learning}
+\citation{shi2024ranking}
+\citation{torabi2018generative}
+\citation{song2022learning}
+\citation{kostrikov2019imitation}
+\citation{kim2021demodice}
+\citation{garg2021iq}
+\citation{reddy2019sqil}
+\citation{yuan2019adversarial,lai2024diffusion}
+\citation{wang2024diffail}
+\citation{finn2017model}
+\citation{hospedales2021meta}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Related Work}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Adversarial Imitation Learning}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Adaptive Meta-Guided Optimization in Imitation and Reinforcement Learning}{2}{}\protected@file@percent }
+\citation{ho2020denoising}
+\citation{finn2017model}
+\citation{wang2024diffail}
+\citation{pearce2023imitating}
+\citation{wang2024diffail,lai2024diffusion}
+\citation{finn2017model,deng2025enhancing}
+\citation{wu2019imitation,song2022learning}
+\citation{ho2020denoising}
+\citation{wang2024diffail,lai2024diffusion}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}Diffusion Models for Imitation Learning}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Method}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Diffusion Discriminator}{3}{}\protected@file@percent }
+\newlabel{eq:diff_loss_re}{{1}{3}{}{}{}}
+\newlabel{eq:discriminator}{{2}{3}{}{}{}}
+\citation{finn2017model,hospedales2021meta}
+\citation{schulman2017proximal}
+\citation{wang2021learning}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The AMAIL framework consists of three components: policy environment interaction, a diffusion-based discriminator, and an adaptive meta generator. Solid lines denote parameter updates, while dashed lines indicate the flow of input and output data. During training, the generator is updated using a normalized reward provided by the discriminator in the interaction phase. This reward replaces the environment reward during rollout, ensuring that learning is guided by discriminator-based feedback.}}{4}{}\protected@file@percent }
+\newlabel{fig_1}{{1}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}On-Policy Adaptive Meta-Learning Network}{4}{}\protected@file@percent }
+\newlabel{Agent_loss}{{3}{4}{}{}{}}
+\newlabel{Value_loss}{{4}{4}{}{}{}}
+\newlabel{tmp_loss}{{5}{4}{}{}{}}
+\citation{ross2011reduction,foster2024behavior,vahabpour2024diverse}
+\citation{schulman2015trust}
+\citation{wang2021learning}
+\citation{ho2016generative,fu2017learning}
+\newlabel{actor_loss}{{7}{5}{}{}{}}
+\newlabel{AMLN_loss}{{8}{5}{}{}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Hierarchical Adaptive Meta-Guided Policy Optimization}}{5}{}\protected@file@percent }
+\newlabel{alg:AML}{{1}{5}{}{}{}}
+\newlabel{alg1}{{1}{5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Adaptive Learning Weights}{5}{}\protected@file@percent }
+\citation{wang2021learning}
+\citation{lee2021generalizable}
+\citation{lee2021generalizable}
+\citation{lee2021generalizable}
+\citation{lee2021generalizable}
+\citation{lee2021generalizable}
+\citation{lee2021generalizable}
+\newlabel{fig_first_case}{{2a}{6}{}{}{}}
+\newlabel{sub@fig_first_case}{{(a)}{a}}
+\newlabel{fig_second_case}{{2b}{6}{}{}{}}
+\newlabel{sub@fig_second_case}{{(b)}{b}}
+\newlabel{fig_third_case}{{2c}{6}{}{}{}}
+\newlabel{sub@fig_third_case}{{(c)}{c}}
+\newlabel{fig_fourth_case}{{2d}{6}{}{}{}}
+\newlabel{sub@fig_fourth_case}{{(d)}{d}}
+\newlabel{fig_fifth_case}{{2e}{6}{}{}{}}
+\newlabel{sub@fig_fifth_case}{{(e)}{e}}
+\newlabel{fig_sixth_case}{{2f}{6}{}{}{}}
+\newlabel{sub@fig_sixth_case}{{(f)}{f}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The experiments mainly consist of five goal-oriented tasks and one performance-oriented task. (a) The robotic arm needs to push the object to the target point. (b) The robotic arm needs to pick up the object and move it to the target point. (c) The ant agent needs to move to the target point indicated by the flag. (d) The dexterous hand needs to rotate the cube in its hand to the target direction. (e) The agent needs to pass through the maze from the green starting point to reach the red target point. (f) The bipedal walker needs to move forward as far as possible within a fixed time.}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {FETCHPUSH}}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {FETCHPICK}}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {ANTREACH}}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {HANDROTATE}}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {MAZE}}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {WALKER}}}{6}{}\protected@file@percent }
+\newlabel{fig_sim}{{2}{6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Experiment}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Simulation setup}{6}{}\protected@file@percent }
+\citation{torabi2018behavioral}
+\citation{chi2025diffusion,pearce2023imitating,reuss2023goal}
+\citation{ho2016generative}
+\citation{xiao2019wasserstein}
+\citation{wang2024diffail}
+\citation{lai2024diffusion}
+\newlabel{fetchpush}{{3a}{7}{}{}{}}
+\newlabel{sub@fetchpush}{{(a)}{a}}
+\newlabel{fetchpick}{{3b}{7}{}{}{}}
+\newlabel{sub@fetchpick}{{(b)}{b}}
+\newlabel{antreach}{{3c}{7}{}{}{}}
+\newlabel{sub@antreach}{{(c)}{c}}
+\newlabel{Hand}{{3d}{7}{}{}{}}
+\newlabel{sub@Hand}{{(d)}{d}}
+\newlabel{Maze}{{3e}{7}{}{}{}}
+\newlabel{sub@Maze}{{(e)}{e}}
+\newlabel{Walker}{{3f}{7}{}{}{}}
+\newlabel{sub@Walker}{{(f)}{f}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Learning efficiency}. Our method is compared against six baseline methods across six environments, with each experiment repeated over five random seeds; the curves report mean performance and the shaded regions indicate pointwise standard deviation. Across all tasks and training stages, AMAIL demonstrates faster convergence, reduced variance, and consistently superior performance relative to competing approaches.}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {FETCHPUSH}}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {FETCHPICK}}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {ANTREACH}}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {HANDROTATE}}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {MAZE}}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {WALKER}}}{7}{}\protected@file@percent }
+\newlabel{fig_sim2}{{3}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Baselines}{7}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Performance Comparison Across Six Tasks}}{8}{}\protected@file@percent }
+\newlabel{tab:cluster_tnnls}{{I}{8}{}{}{}}
+\newlabel{The training effects with different weights}{{4a}{8}{}{}{}}
+\newlabel{sub@The training effects with different weights}{{(a)}{a}}
+\newlabel{rate}{{4b}{8}{}{}{}}
+\newlabel{sub@rate}{{(b)}{b}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Meta-learning Network Coefficient}. The parameters of the linear and sigmoid decay schedules were tuned to their optimal values and evaluated in FetchPush under 2.0$\times $ noise. Results indicate that dynamic weighting outperforms both linear and sigmoid strategies. Output scaling further enhances performance, especially when there is a large magnitude gap between the meta-learning outputs and the reinforcement learning objective.}}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {FETCHPUSH}}}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Rate}}}{8}{}\protected@file@percent }
+\newlabel{fig_sim3}{{4}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Results and Analysis}{8}{}\protected@file@percent }
+\bibstyle{IEEEtran}
+\bibdata{IEEEbib}
+\bibcite{hussein2017imitation}{1}
+\bibcite{zheng2022imitation}{2}
+\bibcite{wan2024lotus}{3}
+\bibcite{le2022survey}{4}
+\bibcite{codevilla2018end}{5}
+\newlabel{FETCHPUSH 1.25}{{5a}{9}{}{}{}}
+\newlabel{sub@FETCHPUSH 1.25}{{(a)}{a}}
+\newlabel{FETCHPUSH x1.75}{{5b}{9}{}{}{}}
+\newlabel{sub@FETCHPUSH x1.75}{{(b)}{b}}
+\newlabel{FETCHPUSH x2.00}{{5c}{9}{}{}{}}
+\newlabel{sub@FETCHPUSH x2.00}{{(c)}{c}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {Noise resistance and generalization ability}. Performance comparison on FETCHPUSH under noise intensities of $\times 1.25$, $\times 1.75$, and $\times 2.00$; curves show mean success rate over five random seeds and shaded regions indicate standard deviation. AMAIL maintains stable convergence and superior final performance as noise increases, demonstrating strong robustness against corrupted expert demonstrations.}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Noise $\times 1.25$}}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Noise $\times 1.75$}}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Noise $\times 2.00$}}}{9}{}\protected@file@percent }
+\newlabel{fig_sim4}{{5}{9}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{9}{}\protected@file@percent }
+\bibcite{silver2016mastering}{6}
+\bibcite{9904958}{7}
+\bibcite{10078377}{8}
+\bibcite{ho2016generative}{9}
+\bibcite{arjovsky2017towards}{10}
+\bibcite{yuan2019adversarial}{11}
+\bibcite{11232478}{12}
+\bibcite{finn2016guided}{13}
+\bibcite{10937085}{14}
+\bibcite{fu2017learning}{15}
+\bibcite{ding2019goal}{16}
+\bibcite{torabi2018generative}{17}
+\bibcite{wang2024diffail}{18}
+\bibcite{shi2024ranking}{19}
+\bibcite{chi2025diffusion}{20}
+\bibcite{kostrikov2019imitation}{21}
+\bibcite{kim2021demodice}{22}
+\bibcite{garg2021iq}{23}
+\bibcite{reddy2019sqil}{24}
+\bibcite{pearce2023imitating}{25}
+\bibcite{11168119}{26}
+\bibcite{11165204}{27}
+\bibcite{wu2019imitation}{28}
+\bibcite{wang2021learning}{29}
+\bibcite{song2022learning}{30}
+\bibcite{lai2024diffusion}{31}
+\bibcite{finn2017model}{32}
+\bibcite{hospedales2021meta}{33}
+\bibcite{ho2020denoising}{34}
+\bibcite{deng2025enhancing}{35}
+\bibcite{schulman2017proximal}{36}
+\bibcite{ross2011reduction}{37}
+\bibcite{foster2024behavior}{38}
+\bibcite{vahabpour2024diverse}{39}
+\bibcite{schulman2015trust}{40}
+\bibcite{lee2021generalizable}{41}
+\bibcite{torabi2018behavioral}{42}
+\bibcite{reuss2023goal}{43}
+\bibcite{xiao2019wasserstein}{44}
+\gdef \@abspage@last{10}
