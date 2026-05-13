@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.20)  13 MAY 2026 11:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.20)  13 MAY 2026 13:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -391,35 +391,37 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/Program Files (x86)/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
- (c:/Program Files (x86)/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
- (c:/Program Files (x86)/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{c:/Program Files (x86)/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+)) [1{c:/Program Files (x86)/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ] [2]
 <AMLN.png, id=13, 695.2374pt x 405.6756pt>
 File: AMLN.png Graphic file (type png)
 <use AMLN.png>
-Package pdftex.def Info: AMLN.png  used on input line 108.
+Package pdftex.def Info: AMLN.png  used on input line 110.
 (pdftex.def)             Requested size: 397.48499pt x 231.93697pt.
 
-Underfull \hbox (badness 1448) in paragraph at lines 105--112
+Underfull \hbox (badness 1448) in paragraph at lines 107--114
 \OT1/ptm/m/n/10 im-i-ta-tion learn-ing through ad-ver-sar-ial op-ti-miza-tion, meta
  []
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 114--115
+Underfull \hbox (badness 4569) in paragraph at lines 116--117
 []\OT1/ptm/m/n/10 This sec-tion presents a noise-robust adap-tive meta-
  []
 
-[3] [4 <./AMLN.png>]
-Underfull \hbox (badness 3302) in paragraph at lines 259--261
+LaTeX Font Info:    Trying to load font information for U+msa on input line 127.
+(c:/Program Files (x86)/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 127.
+ (c:/Program Files (x86)/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3]
+Underfull \vbox (badness 1122) has occurred while \output is active []
+
+ [4 <./AMLN.png>]
+Underfull \hbox (badness 3302) in paragraph at lines 261--263
 \OT1/ptm/m/n/10 which es-tab-lishes a mono-tonic re-la-tion-ship be-tween $\OML/cmm/m/it/10 !$
  []
 
@@ -427,77 +429,77 @@ Underfull \hbox (badness 3302) in paragraph at lines 259--261
 <pic1.png, id=37, 281.3712pt x 281.853pt>
 File: pic1.png Graphic file (type png)
 <use pic1.png>
-Package pdftex.def Info: pic1.png  used on input line 396.
+Package pdftex.def Info: pic1.png  used on input line 398.
 (pdftex.def)             Requested size: 82.56189pt x 82.70293pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 396.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 398.
  (c:/Program Files (x86)/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 <pic2.png, id=38, 281.853pt x 281.853pt>
 File: pic2.png Graphic file (type png)
 <use pic2.png>
-Package pdftex.def Info: pic2.png  used on input line 400.
+Package pdftex.def Info: pic2.png  used on input line 402.
 (pdftex.def)             Requested size: 82.56189pt x 82.561pt.
 <pic3.png, id=39, 282.99411pt x 281.47263pt>
 File: pic3.png Graphic file (type png)
 <use pic3.png>
-Package pdftex.def Info: pic3.png  used on input line 404.
+Package pdftex.def Info: pic3.png  used on input line 406.
 (pdftex.def)             Requested size: 82.56189pt x 82.1146pt.
 <pic4.png, id=40, 281.853pt x 281.853pt>
 File: pic4.png Graphic file (type png)
 <use pic4.png>
-Package pdftex.def Info: pic4.png  used on input line 408.
+Package pdftex.def Info: pic4.png  used on input line 410.
 (pdftex.def)             Requested size: 82.56189pt x 82.561pt.
 <pic5.png, id=41, 281.853pt x 281.853pt>
 File: pic5.png Graphic file (type png)
 <use pic5.png>
-Package pdftex.def Info: pic5.png  used on input line 412.
+Package pdftex.def Info: pic5.png  used on input line 414.
 (pdftex.def)             Requested size: 82.56189pt x 82.561pt.
 <pic6.png, id=42, 431.33778pt x 431.33778pt>
 File: pic6.png Graphic file (type png)
 <use pic6.png>
-Package pdftex.def Info: pic6.png  used on input line 416.
+Package pdftex.def Info: pic6.png  used on input line 418.
 (pdftex.def)             Requested size: 82.56189pt x 82.56053pt.
  [6 <./pic1.png> <./pic2.png> <./pic3.png> <./pic4.png> <./pic5.png> <./pic6.png>]
 <fetchpush.png, id=54, 736.1904pt x 590.6868pt>
 File: fetchpush.png Graphic file (type png)
 <use fetchpush.png>
-Package pdftex.def Info: fetchpush.png  used on input line 451.
+Package pdftex.def Info: fetchpush.png  used on input line 453.
 (pdftex.def)             Requested size: 170.28094pt x 136.62122pt.
 <fetchpick.png, id=55, 743.6583pt x 591.4095pt>
 File: fetchpick.png Graphic file (type png)
 <use fetchpick.png>
-Package pdftex.def Info: fetchpick.png  used on input line 455.
+Package pdftex.def Info: fetchpick.png  used on input line 457.
 (pdftex.def)             Requested size: 170.28094pt x 135.4167pt.
 <Antgoal.png, id=56, 736.1904pt x 591.4095pt>
 File: Antgoal.png Graphic file (type png)
 <use Antgoal.png>
-Package pdftex.def Info: Antgoal.png  used on input line 459.
+Package pdftex.def Info: Antgoal.png  used on input line 461.
 (pdftex.def)             Requested size: 170.28094pt x 136.78838pt.
 <Hand.png, id=57, 736.1904pt x 590.6868pt>
 File: Hand.png Graphic file (type png)
 <use Hand.png>
-Package pdftex.def Info: Hand.png  used on input line 463.
+Package pdftex.def Info: Hand.png  used on input line 465.
 (pdftex.def)             Requested size: 170.28094pt x 136.62122pt.
 <Maze.png, id=58, 736.1904pt x 591.4095pt>
 File: Maze.png Graphic file (type png)
 <use Maze.png>
-Package pdftex.def Info: Maze.png  used on input line 467.
+Package pdftex.def Info: Maze.png  used on input line 469.
 (pdftex.def)             Requested size: 170.28094pt x 136.78838pt.
 <Walker.png, id=59, 722.7pt x 578.16pt>
 File: Walker.png Graphic file (type png)
 <use Walker.png>
-Package pdftex.def Info: Walker.png  used on input line 471.
+Package pdftex.def Info: Walker.png  used on input line 473.
 (pdftex.def)             Requested size: 170.28094pt x 136.22049pt.
 <learning_rate.png, id=60, 722.7pt x 578.16pt>
 File: learning_rate.png Graphic file (type png)
 <use learning_rate.png>
-Package pdftex.def Info: learning_rate.png  used on input line 537.
+Package pdftex.def Info: learning_rate.png  used on input line 539.
 (pdftex.def)             Requested size: 170.28094pt x 136.22049pt.
 <rate.png, id=61, 570.933pt x 433.62pt>
 File: rate.png Graphic file (type png)
 <use rate.png>
-Package pdftex.def Info: rate.png  used on input line 541.
+Package pdftex.def Info: rate.png  used on input line 543.
 (pdftex.def)             Requested size: 196.08252pt x 148.92418pt.
  [7 <./fetchpush.png> <./fetchpick.png> <./Antgoal.png> <./Hand.png> <./Maze.png> <./Walker.png>]
 Underfull \vbox (badness 1577) has occurred while \output is active []
@@ -506,17 +508,17 @@ Underfull \vbox (badness 1577) has occurred while \output is active []
 <1.25.png, id=80, 722.7pt x 578.16pt>
 File: 1.25.png Graphic file (type png)
 <use 1.25.png>
-Package pdftex.def Info: 1.25.png  used on input line 564.
+Package pdftex.def Info: 1.25.png  used on input line 566.
 (pdftex.def)             Requested size: 170.28094pt x 136.22049pt.
 <1.75.png, id=81, 722.7pt x 578.16pt>
 File: 1.75.png Graphic file (type png)
 <use 1.75.png>
-Package pdftex.def Info: 1.75.png  used on input line 568.
+Package pdftex.def Info: 1.75.png  used on input line 570.
 (pdftex.def)             Requested size: 170.28094pt x 136.22049pt.
 <2.00.png, id=82, 722.7pt x 578.16pt>
 File: 2.00.png Graphic file (type png)
 <use 2.00.png>
-Package pdftex.def Info: 2.00.png  used on input line 572.
+Package pdftex.def Info: 2.00.png  used on input line 574.
 (pdftex.def)             Requested size: 170.28094pt x 136.22049pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -538,15 +540,15 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9497 strings out of 474116
- 216273 string characters out of 5737623
+ 9495 strings out of 474116
+ 216260 string characters out of 5737623
  1954190 words of memory out of 5000000
  31739 multiletter control sequences out of 15000+600000
- 601840 words of font info for 114 fonts, out of 8000000 for 9000
+ 599626 words of font info for 112 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  73i,13n,80p,1516b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/Program Files (x86)/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AMAIL20260428.pdf (10 pages, 6493232 bytes).
+Output written on AMAIL20260428.pdf (10 pages, 6492409 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream
